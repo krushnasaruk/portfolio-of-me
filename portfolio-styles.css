@@ -963,14 +963,31 @@ body {
         margin: 1rem 0;
     }
 
+    .hero {
+        overflow: visible;
+        padding: 2rem 0;
+    }
+
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+        padding: 2rem 20px;
     }
 
     .hero-title {
         font-size: 2.5rem;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-top: 60px;
+    }
+
+    .image-container {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
     }
 
     .about-content {
@@ -1006,9 +1023,18 @@ body {
         font-size: 2rem;
     }
 
+    .hero-image {
+        margin-top: 70px;
+    }
+
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .image-container {
+        width: 200px;
+        height: 200px;
     }
 
     .social-buttons {
@@ -1050,3 +1076,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+
+
+
+ 
